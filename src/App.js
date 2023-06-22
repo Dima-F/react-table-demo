@@ -1,10 +1,10 @@
 import './App.css';
-import PaginationTable from './components/PaginationTable';
+import StickyTable from './components/StickyTable';
 
 function App() {
   return (
-    <div className="App">
-      <PaginationTable />
+    <div>
+      <StickyTable />
     </div>
   );
 }
